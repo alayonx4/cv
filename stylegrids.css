@@ -1,0 +1,8 @@
+.first {
+ background: rebeccapurple;
+color: #f7f7f7;
+text-align: center;
+}
+div[class|="col"]{
+   border: 1px solid #000000
+}
