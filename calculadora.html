@@ -1,0 +1,49 @@
+<div class="alert alert-primary" role="alert">
+ <!DOCTYPE html>
+<html lang = "es">
+<head>
+<meta charset = "utf-8">
+<title>calculadora simple</title>
+       <link rel = "stylesheet" href="botones.css">
+       <link rel = "stylesheet" href="fonts.css">
+       <link rel = "stylesheet" href="calculadora.html">
+       <link rel="stylesheet" href="plushtrap/bootstrap.min.css">
+     
+</head>
+<body background="img/fondo.png"
+        <script src="plushtrap/jquery-3.4.1.slim.min.js"</script>
+        <script src="plushtrap/popper.min.js"</script>
+        <script src="plushtrap/bootstrap.min.js" integrity="</script>
+ 
+<div class="alert alert-light" role="alert">
+ una simple calculadora de lo mas basico posible.
+</div>
+
+<form name="calculator" >
+<IMG src="img/calculadora.png" width="100" height="100">
+
+<center>
+<input type="button" value="1" onClick="document.calculator.ans.value+='1'"class="btn btn-primary"></button>
+<input type="button" value="2" onClick="document.calculator.ans.value+='2'"class="btn btn-primary"></button>
+<input type="button" value="3" onClick="document.calculator.ans.value+='3'"class="btn btn-primary"></button>
+<input type="button" value="4" onClick="document.calculator.ans.value+='4'"class="btn btn-primary"></button>
+<input type="button" value="5" onClick="document.calculator.ans.value+='5'"class="btn btn-primary"></button>
+<input type="button" value="6" onClick="document.calculator.ans.value+='6'"class="btn btn-primary"></button>
+<input type="button" value="7" onClick="document.calculator.ans.value+='7'"class="btn btn-primary"></button>
+<input type="button" value="8" onClick="document.calculator.ans.value+='8'"class="btn btn-primary"></button>
+<input type="button" value="9" onClick="document.calculator.ans.value+='9'"class="btn btn-primary"></button>
+<input type="button" value="-" onClick="document.calculator.ans.value+='-'"class="btn btn-primary"></button>
+<input type="button" value="+" onClick="document.calculator.ans.value+='+'"class="btn btn-primary"></button>
+<input type="button" value="*" onClick="document.calculator.ans.value+='*'"class="btn btn-primary"></button>
+<input type="button" value="/" onClick="document.calculator.ans.value+='/'"class="btn btn-primary"></button>
+
+<input type="button" value="0" onClick="document.calculator.ans.value+='0'"class="btn btn-primary"></button>
+<input type="reset" value="Reset"class="btn btn-dark"></button>
+<input type="button" value="resultado" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)"class="btn btn-success"></button>
+<br>El resultado es<input type="textfield" name="ans" value="">
+
+</center>
+</form>
+</body>
+</html>
+
